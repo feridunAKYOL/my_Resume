@@ -1,5 +1,5 @@
 html {
- scroll-behavior: smooth ;
+	scroll-behavior: smooth;
 }
 
 body {
@@ -161,33 +161,34 @@ ul > li {
 .contact-part {
 	width: 100%;
 	margin: 0;
-	background-color: rgb(197, 195, 195);
+	background-color: rgb(53, 62, 80);
+	color: aliceblue;
 }
-.contacts,
-.contacts-i {
-  color: rgb(20, 137, 167);
-  font-size: 17px;
+.contacts {
+	color: rgb(108, 192, 248);
+	font-size: 17px;
 }
 .contacts-i {
-  margin-top: 2px;
-  margin-left: 6px;
+	margin-top: 3%;
+	margin-left: 6px;
+	color: darkgrey;
 }
 a {
-  color: black;
+	color: white;
 }
 .header-contact {
-  font-size: 250%;
-  margin-top: 120px;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  display: flex;
-  flex: 1;
-  justify-content: center;
-  align-items: center;
+	font-size: 250%;
+	margin-top: 120px;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	display: flex;
+	flex: 1;
+	justify-content: center;
+	align-items: center;
 }
 .contact_sections {
 	padding-left: 5%;
 }
 .contact_sec {
-	
-	
+	display: inline-flex;
+	align-items: center;
 }
